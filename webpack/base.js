@@ -4,6 +4,7 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
+  entry: "./index.js",
   mode: "development",
   devtool: "eval-source-map",
   module: {
